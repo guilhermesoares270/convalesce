@@ -1,0 +1,21 @@
+{
+  "name": "gambiarra",
+  "version": "0.1",
+  "description": "Mininal web server",
+  "main": "index.js",
+  "author": "Guilherme Soares Leite",
+  "license": "MIT",
+  "private": false,
+  "dependencies": {},
+  "scripts": {
+    "eslint": "eslint .",
+    "build": "tsc",
+    "start:watch": "tsc-watch"
+  },
+  "devDependencies": {
+    "@types/node": "^13.7.0",
+    "eslint": "^6.8.0",
+    "tsc-watch": "^4.1.0",
+    "typescript": "^3.7.5"
+  }
+}
