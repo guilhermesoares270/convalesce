@@ -52,7 +52,7 @@ import {
 } from '../types/char';
 
 
-const InputStream = (input: string): {
+export const InputStream = (input: string): {
   next: () => Char,
   peek: () => Char,
   eof: () => boolean,
